@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Work Sans, Arial;
+	width: 1400px;
+	height: 6739px;
+	margin: 0;
+	background-color: #ffffff;
+}
+
+/*Header*/
+.header {
+	background-color: #F3C6BD;
+	height: 710px;
+}
+
+.header_menu {
+	display: flex;
+	padding:39px 130px 609px;
+	justify-content: space-between;
+}
+
+.logo p {
+	float: right;
+}
+
+
