@@ -13,73 +13,7 @@ a {
 	text-decoration: none;
 }
 
-.sec4_body {
-	padding: 110px 0;
-}
 
-.sec4_above {
-	display: flex;
-}
-
-.sec4_text {
-	max-width: 462px;
-}
-
-.sec4_communicate {
-	margin: 13px 0 24px;
-}
-
-.small-head--blue {
-	color: #0189D1;
-}
-
-.sec4_head {
-	margin-bottom: 30px;
-}
-
-.sec4_para {
-	margin-bottom: 39px;
-}
-
-.btn--margin-b {
-	margin-bottom: 87px;
-}
-
-.hr {
-	width: 150px;
-	height: 1px;
-	background-color: rgba(0, 0, 1, 0.1);
-}
-
-.sec4_pic {
-	margin-left: 194px;
-	text-align: center;
-}
-
-.sec4_footer {
-	display: flex;
-	justify-content: space-between;
-	padding-top: 41px;
-}
-
-.sec4_box {
-	max-width: 360px;
-}
-
-.sec4_content {
-	font-size: 18px;
-	line-height: 26px;
-	margin-bottom: 10px;
-}
-
-.sec4_link {
-	font-weight: bold;
-	color: #3040C4;
-}
-
-.sec5 {
-	background-color: #00A1C6;
-}
 
 
 
