@@ -76,6 +76,7 @@
 
 .btn {
 	font-size: 18px;
+	line-height: 13px;
 	font-weight: bold;
 	padding: 17px 28px;
 	border: none;
@@ -83,7 +84,7 @@
 	border-radius: 2px;
 }
 
-.--btn-blue {
+.btn--blue {
 	background-color: #3040C4;
 	color: #ffffff;
 }
@@ -118,11 +119,11 @@
 	margin-top: 58px;
 }
 
-.--btn-white {
+.btn--white {
 	background-color: #ffffff;
 	color: #3040C4;
 }
 
-.--btn-margin {
+.--btn-margin-l {
 	margin-left: 10px;
 }

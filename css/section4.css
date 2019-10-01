@@ -1,18 +1,3 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	font-family: 'Work Sans', sans-serif;
-	color: #2B292D;
-}
-
-a {
-	text-decoration: none;
-}
-
 .sec4_body {
 	padding: 110px 0;
 }
@@ -76,10 +61,3 @@ a {
 	font-weight: bold;
 	color: #3040C4;
 }
-
-.sec5 {
-	background-color: #00A1C6;
-}
-
-
-
