@@ -1,0 +1,89 @@
+
+.sec2 {
+	margin-bottom: 100px;
+}
+
+.sec2_logo  {
+	padding-top: 30px;
+}
+
+.sec2_body {
+	position: relative;
+	padding-top: 106px;
+}
+
+.sec2_text {
+	max-width: 462px;
+}
+
+.sec2_feature {
+	margin-bottom: 24px;
+}
+
+.small-head {
+	font-size: 22px;
+	line-height: 34px;
+}
+
+.small-head--green {
+	color: #009B4D;
+}
+
+.sec2_head {
+	margin-bottom: 30px;
+}
+
+.large-head {
+	font-size: 56px;
+	line-height: 56px;	
+}
+
+.sec2_para {
+	margin-bottom: 22px;
+}
+
+.para {
+	font-size: 24px;
+	line-height: 34px;
+}
+
+.sec2_item {
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(43, 41, 45, 0.15);
+}
+
+.sec2_item:first-child {
+	border-bottom: 3px solid #3142C6;
+}
+
+.sec2_title {
+	display: flex;
+}
+
+.sec2_txt {
+	font-size: 22px;
+	line-height: 26px;
+	margin-left: 15px;
+} 
+
+.sec2_item:first-child .sec2_txt  {
+	color: #3142C6;
+}
+
+.sec2_content {
+	margin-top: 8px;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.sec2_pic1 {
+	position: absolute;
+	top: 106px;
+	left: calc(100% - 570px);
+}
+
+.sec2_pic2 {
+	position: absolute;
+	top: 364px;
+	right: calc(100% + 42px);
+}
