@@ -61,3 +61,7 @@
 	font-weight: bold;
 	color: #3040C4;
 }
+
+.sec4_link:hover {
+	font-size: 120%;
+}

@@ -1,0 +1,54 @@
+.sec6 {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sec6_body {
+	padding-top: 43px;
+	position: relative;
+}
+.sec6_text {
+	text-align: center;
+	margin: 76px auto 66px;
+}
+
+.sec6_title {
+	color:  #3142C6;
+	margin-bottom: 28px;
+}
+
+.sec6_quote {
+	max-width: 750px;
+	margin: 0 auto 34px;
+}
+
+.sec6_author {
+	line-height: 24px;
+	margin-bottom: 38px;
+}
+
+.sec6_slide {
+	display: flex;
+	justify-content: center;
+
+}
+
+.sec6_dot {
+	background-color: rgba(43, 41, 45, 0.2);
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+}
+
+.sec6_dot:hover {
+	background-color: #3142C6;
+}
+
+.sec6_dot:not(last-child) {
+	margin-right: 13px;
+}
+
+.sec6_pic {
+	position: absolute;
+	top: 306px;
+	left: 971px;
+}

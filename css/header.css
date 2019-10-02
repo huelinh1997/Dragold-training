@@ -30,12 +30,16 @@
 	margin-right: 15px;
 }
 
-.header_textlogo:hover {
+.header_textlogo:hover, .header_textlogo:hover .color-gray {
 	color: #3040C4;
 }
 
 .bold {
 	font-weight: bold;
+}
+
+.color-gray {
+	color: rgba(43, 41, 45, 0.6);	
 }
 
 .header_nav {
@@ -51,6 +55,7 @@
 
 .header_item {
 	margin-left: 35px;
+	position: relative;
 }
 
 .header_item > a:hover {
@@ -64,6 +69,36 @@
 .header_item:nth-child(3) .header_link {
 	display: flex;
 	align-items: center;
+}
+
+.header_drop {
+	display: none;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 30px 30px 0px;
+	font-size: 18px;
+	line-height: 22px;
+	width: 612px;
+	background-color: #ffffff;
+	box-shadow: 0px 11px 55px rgba(0, 0, 0, 0.07);
+	border-radius: 8px;
+	position: absolute;
+	top: 55px;
+	right: -55px;
+}
+
+.popup-item {
+	width: 262px;
+	margin-bottom: 30px;
+}
+
+.popup-title {
+	margin-bottom: 10px;
+}
+
+.popup-title:hover {
+	color: #009B4D;
 }
 
 .header_link {
@@ -87,6 +122,10 @@
 .btn--blue {
 	background-color: #3040C4;
 	color: #ffffff;
+}
+
+.btn--blue:hover {
+	background-color: #222d8c;
 }
 
 .header_nav .btn {
@@ -122,6 +161,11 @@
 .btn--white {
 	background-color: #ffffff;
 	color: #3040C4;
+}
+
+.btn--white:hover {
+	background-color: #444444;
+	color: #ffffff;
 }
 
 .btn--margin-l {
