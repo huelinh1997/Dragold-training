@@ -6,15 +6,17 @@
 	padding: 72px 0;
 	margin: 0 230px 0 224px;
 	display: flex;
+	align-items: center;
 }
 
 .sec8_text {
-	padding: 34px 0 0 121px;	
+	padding-left: 121px;	
 }
 
 .sec8_title {
 	font-size: 40px;
 	line-height: 40px;
+	font-weight: 700;
 	margin-bottom: 12px;
 }
 
@@ -36,4 +38,8 @@
 	font-size: 18px;
 	line-height: 13px;
 	padding: 17px 15px;
-}s
+}
+
+.sec8_sub a:hover {
+	font-weight: bold;
+}

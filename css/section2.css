@@ -1,15 +1,11 @@
 
 .sec2 {
-	margin-bottom: 100px;
-}
-
-.sec2_logo  {
-	padding-top: 30px;
+	padding: 30px 0 100px;
 }
 
 .sec2_body {
 	position: relative;
-	padding-top: 106px;
+	margin-top: 106px;
 }
 
 .sec2_text {
@@ -20,31 +16,12 @@
 	margin-bottom: 24px;
 }
 
-.small-head {
-	font-size: 22px;
-	line-height: 34px;
-}
-
-.small-head--green {
-	color: #009B4D;
-}
-
 .sec2_head {
 	margin-bottom: 30px;
 }
 
-.large-head {
-	font-size: 56px;
-	line-height: 56px;	
-}
-
 .sec2_para {
 	margin-bottom: 22px;
-}
-
-.para {
-	font-size: 24px;
-	line-height: 34px;
 }
 
 .sec2_item {
@@ -56,6 +33,10 @@
 	border-bottom: 3px solid #3142C6;
 }
 
+.sec2_item:first-child .sec2_txt  {
+	color: #3142C6;
+}
+
 .sec2_title {
 	display: flex;
 }
@@ -63,12 +44,9 @@
 .sec2_txt {
 	font-size: 22px;
 	line-height: 26px;
+	font-weight: 700;	
 	margin-left: 15px;
 } 
-
-.sec2_item:first-child .sec2_txt  {
-	color: #3142C6;
-}
 
 .sec2_content {
 	margin-top: 8px;
@@ -78,12 +56,12 @@
 
 .sec2_pic1 {
 	position: absolute;
-	top: 106px;
-	left: calc(100% - 570px);
+	top: 0;
+	left: calc(100% - 572px);
 }
 
 .sec2_pic2 {
 	position: absolute;
-	top: 364px;
+	top: 258px;
 	right: calc(100% + 42px);
 }

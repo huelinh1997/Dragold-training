@@ -9,6 +9,7 @@
 .sec5_text {
 	margin: 0 auto;
 	text-align: center;
+	max-width: 555px;
 }
 
 .sec5_visitor {
@@ -17,12 +18,10 @@
 
 .sec5_head {
 	margin: 0 auto 30px;
-	max-width: 555px;
 }
 
 .sec5_para {
 	margin: 0 auto 34px;
-	max-width: 555px;
 }
 
 .sec5_btn {
@@ -41,6 +40,7 @@
 	background-color: #ffffff;
 	text-align: center;
 	font-size: 22px;
+	font-weight: 700;
 	line-height: 28px;
 }
 

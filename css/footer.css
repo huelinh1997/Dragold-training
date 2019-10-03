@@ -20,21 +20,6 @@
 	margin-right: 30px;
 }
 
-.footer_foundation {
-	display: flex;
-	align-items: center;
-}
-
-.footer_text {
-	font-size: 20px;
-	line-height: 25px;
-	margin-left: 15px;
-}
-
-.footer_text:hover, .footer_text:hover > .color-gray {
-	color: #3141C5;
-}
-
 .footer_para {
 	font-size: 18px;	
 	line-height: 26px;
@@ -44,6 +29,7 @@
 .footer_title {
 	font-size: 22px;
 	line-height: 28px;
+	font-weight: 700;
 	padding: 17px 0;
 }
 
@@ -75,6 +61,7 @@
 
 .footer_list a:hover{
 	color: #3141C5;
+	font-weight: 700;
 }
 
 .footer_icon img {

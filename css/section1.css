@@ -6,7 +6,7 @@
 	padding: 77px 0;
 }
 
-.sec1_wrap {
+.sec1_body {
 	display: flex;
 	justify-content: space-between;
 }
@@ -17,4 +17,5 @@
 
 .sec1_title {
 	padding-bottom: 10px;
+  font-weight: 700;
 }

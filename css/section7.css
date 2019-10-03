@@ -35,10 +35,6 @@
 	margin-bottom: 20px;
 }
 
-.sec7_item div:first-child {
-	font-weight: bold;
-}
-
 .sec7_item:hover, .sec7_item:hover > .sec7_listtext {
 	background-color: #3141C5;
 	color: #ffffff;
@@ -46,6 +42,7 @@
 
 .sec7_listtitle {
 	font-size: 22px;
+	font-weight: 700;
 	line-height: 28px;
 	width: 408px;
 	margin-right: 20px;

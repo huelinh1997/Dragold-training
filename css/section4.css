@@ -14,20 +14,12 @@
 	margin: 13px 0 24px;
 }
 
-.small-head--blue {
-	color: #0189D1;
-}
-
 .sec4_head {
 	margin-bottom: 30px;
 }
 
 .sec4_para {
 	margin-bottom: 39px;
-}
-
-.btn--margin-b {
-	margin-bottom: 87px;
 }
 
 .hr {
@@ -58,10 +50,9 @@
 }
 
 .sec4_link {
-	font-weight: bold;
 	color: #3040C4;
 }
 
 .sec4_link:hover {
-	font-size: 120%;
+	font-weight: bold;
 }
