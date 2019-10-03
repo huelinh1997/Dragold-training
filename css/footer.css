@@ -23,6 +23,7 @@
 .footer_para {
 	font-size: 18px;	
 	line-height: 26px;
+	color: rgba(43, 41, 45, 0.6);
 	margin: 25px 0;
 }
 
@@ -64,6 +65,10 @@
 	font-weight: 700;
 }
 
-.footer_icon img {
+.footer_icon a {
 	margin-left: 20px;
+}
+
+.footer_icon a:hover > img {
+	filter: opacity(60%);
 }
