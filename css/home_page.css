@@ -9,10 +9,6 @@ body {
 	color: #2B292D;
 }
 
-a {
-	text-decoration: none;
-}
-
 .container {
 	max-width: 1400px;
 	margin: 0 auto;	
