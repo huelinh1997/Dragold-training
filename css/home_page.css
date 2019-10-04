@@ -9,19 +9,6 @@ body {
   color: #2B292D;
 }
 
-.container {
-  max-width: 1400px;
-  margin: 0 auto; 
-}
-
-.wrap {
-  margin: 0 130px;
-}
-
-.bold {
-  font-weight: bold;
-}
-
 /*Header*/
 .header {
   background-color: #F3C6BD;
@@ -40,9 +27,13 @@ body {
   font-size: 18px;
 }
 
-.header__nav--btn {
+.header-nav--btn {
   margin-left: 56px;
 }
+
+/*.header-content--btn {
+  margin-left: 10px;
+}*/
 
 /*Header-content*/
 .header__content {
@@ -58,7 +49,7 @@ body {
   margin-top: 34px;
 }
 
-.header__content--btn {
+.header-content__btn {
   margin-top: 58px;
 }
 

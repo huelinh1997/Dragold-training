@@ -8,6 +8,10 @@
   border-radius: 2px;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .btn--blue {
   background-color: #3040C4;
   color: #ffffff;
@@ -25,10 +29,6 @@
 .btn--white:hover {
   background-color: #444444;
   color: #ffffff;
-}
-
-.btn--margin-l {
-  margin-left: 10px;
 }
 
 .btn--margin-b {

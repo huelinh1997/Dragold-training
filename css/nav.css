@@ -17,6 +17,19 @@
   color: #3040C4;
 }
 
+.nav__item--popup {
+  position: relative;
+}
+
+.nav__item--popup .nav__link {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item--popup:hover .popup {
+  display: block;
+}
+
 .nav__link {
   color: #2B292D;
 }

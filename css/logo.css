@@ -15,6 +15,7 @@
 
 .logo__text:hover {
   color: #3040C4;
+  cursor: pointer;
 }
 
 .logo__content {
