@@ -1,67 +1,67 @@
 
 .sec2 {
-	padding: 30px 0 100px;
+  padding: 30px 0 100px;
 }
 
 .sec2_body {
-	position: relative;
-	margin-top: 106px;
+  position: relative;
+  margin-top: 106px;
 }
 
 .sec2_text {
-	max-width: 462px;
+  max-width: 462px;
 }
 
 .sec2_feature {
-	margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .sec2_head {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .sec2_para {
-	margin-bottom: 22px;
+  margin-bottom: 22px;
 }
 
 .sec2_item {
-	padding: 20px 0;
-	border-bottom: 1px solid rgba(43, 41, 45, 0.15);
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(43, 41, 45, 0.15);
 }
 
 .sec2_item:first-child {
-	border-bottom: 3px solid #3142C6;
+  border-bottom: 3px solid #3142C6;
 }
 
 .sec2_item:first-child .sec2_txt  {
-	color: #3142C6;
+  color: #3142C6;
 }
 
 .sec2_title {
-	display: flex;
+  display: flex;
 }
 
 .sec2_txt {
-	font-size: 22px;
-	line-height: 26px;
-	font-weight: 700;	
-	margin-left: 15px;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 700; 
+  margin-left: 15px;
 } 
 
 .sec2_content {
-	margin-top: 8px;
-	font-size: 18px;
-	line-height: 26px;
+  margin-top: 8px;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .sec2_pic1 {
-	position: absolute;
-	top: 0;
-	left: calc(100% - 572px);
+  position: absolute;
+  top: 0;
+  left: calc(100% - 572px);
 }
 
 .sec2_pic2 {
-	position: absolute;
-	top: 258px;
-	right: calc(100% + 42px);
+  position: absolute;
+  top: 258px;
+  right: calc(100% + 42px);
 }

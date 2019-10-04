@@ -1,58 +1,58 @@
 .sec4_body {
-	padding: 110px 0;
+  padding: 110px 0;
 }
 
 .sec4_above {
-	display: flex;
+  display: flex;
 }
 
 .sec4_text {
-	max-width: 462px;
+  max-width: 462px;
 }
 
 .sec4_communicate {
-	margin: 13px 0 24px;
+  margin: 13px 0 24px;
 }
 
 .sec4_head {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .sec4_para {
-	margin-bottom: 39px;
+  margin-bottom: 39px;
 }
 
 .hr {
-	width: 150px;
-	height: 1px;
-	background-color: rgba(0, 0, 1, 0.1);
+  width: 150px;
+  height: 1px;
+  background-color: rgba(0, 0, 1, 0.1);
 }
 
 .sec4_pic {
-	margin-left: 194px;
-	text-align: center;
+  margin-left: 194px;
+  text-align: center;
 }
 
 .sec4_footer {
-	display: flex;
-	justify-content: space-between;
-	padding-top: 41px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 41px;
 }
 
 .sec4_box {
-	max-width: 360px;
+  max-width: 360px;
 }
 
 .sec4_content {
-	font-size: 18px;
-	line-height: 26px;
-	margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 10px;
 }
 
 .sec4_link {
-	color: #3040C4;
+  color: #3040C4;
 }
 
 .sec4_link:hover {
-	font-weight: bold;
+  font-weight: bold;
 }
