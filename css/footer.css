@@ -1,74 +1,74 @@
-.footer_section {
+.footer__section {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.footer_body {
+.footer__body {
   padding: 43px 0 60px;
   display: flex;
 }
 
-.footer_column {
+.footer__column {
   width: 265px;
 }
 
-.footer_column--one {
+.footer__column--one {
   margin-right: 110px;
   width: 360px;
 }
 
-.footer_column_two {
+.footer__column--two {
   margin-right: 30px;
 }
 
-.footer_para {
+.footer__para {
   font-size: 18px;  
   line-height: 26px;
   color: rgba(43, 41, 45, 0.6);
   margin: 25px 0;
 }
 
-.footer_title {
+.footer__title {
   font-size: 22px;
   line-height: 28px;
   font-weight: 700;
   padding: 17px 0;
 }
 
-.footer_content {
+.footer__content {
   display: flex;
   flex-direction: column;
 }
 
-.footer_content a {
+.footer__content a {
   font-size: 18px;
   line-height: 30px;
   color: rgba(43, 41, 45, 0.6);
 }
 
-.footer_content a:hover {
+.footer__content a:hover {
   color: #3141C5;
 }
 
-.footer_row {
+.footer__row {
   display: flex;
   justify-content: space-between;
   padding: 16px 0;
 }
 
-.footer_list a {
+.footer__list a {
   color: rgba(43, 41, 45, 0.6);
   margin-right: 20px;
 }
 
-.footer_list a:hover{
+.footer__list a:hover {
   color: #3141C5;
   font-weight: 700;
 }
 
-.footer_icon a {
+.footer__icon a {
   margin-left: 20px;
 }
 
-.footer_icon a:hover > img {
+.footer__icon a:hover > img {
   filter: opacity(60%);
 }
