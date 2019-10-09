@@ -1,0 +1,41 @@
+@mixin float-left($float, $margin) {
+	float: $float;
+	margin: $margin;
+}
+
+.class {@include float-left(right, 5px 10px);}
+
+@mixin square($size, $color) {
+	width: $size;
+	height: $size;
+	background-color: $color;
+}
+
+small-green-square {
+	@include square(20px, green);
+}
+
+big-red-square {
+	@include square(200px, red);
+}
+
+@mixin transform-tilt() {
+	$tilt: rotate(15deg);
+	-webkit-transform: $tilt;
+	-ms-transform: $tilt;
+	transform: $tilt;
+}
+
+frame:hover {
+	@include transform-tilt;
+}
+
+@mixin transform($property) {
+	-webkit-transform: $property;
+	-ms-transform: $property;
+	transform: $property;
+}
+
+.box {
+	@include transform(rotate(30deg));
+}

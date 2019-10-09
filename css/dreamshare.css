@@ -1,0 +1,28 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff; }
+
+.btn--fill, .btn--white, .btn--pink {
+  border: none;
+  border-radius: 40px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0px; }
+
+.header {
+  background-image: url(../img/Background.png);
+  background-position: center; }
+
+.btn--fill {
+  font-weight: bold;
+  background-color: #FF4E50; }
+
+.btn--white {
+  border: 2px solid #ffffff; }
+
+.btn--pink {
+  border: 2px solid #FF4E50; }
+
+/*# sourceMappingURL=dreamshare.css.map */

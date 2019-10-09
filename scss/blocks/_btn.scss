@@ -1,0 +1,18 @@
+
+
+.btn--fill {
+	@extend %btn;
+	font-weight: bold;
+	background-color: $pink;
+}
+
+.btn--white {
+	@extend %btn;
+	border: 2px solid $white;
+}
+
+.btn--pink {
+	@extend %btn;
+	border: 2px solid $pink;
+}
+
