@@ -1,18 +1,28 @@
 
+.btn {
+	&--fill {
+		@extend %btn;
+		font-weight: bold;
+		background-color: $pink;
+	}
 
-.btn--fill {
-	@extend %btn;
-	font-weight: bold;
-	background-color: $pink;
+	&--white {
+		@extend %btn;
+		background-color: transparent;
+		border: 2px solid $white;
+	}
+
+	&--pink {
+		@extend %btn;
+		border: 2px solid $pink;
+	}
 }
 
-.btn--white {
-	@extend %btn;
-	border: 2px solid $white;
-}
-
-.btn--pink {
-	@extend %btn;
-	border: 2px solid $pink;
+@media only all and (min-width: 768px) {
+	.btn {
+		&--fill {
+			width: 225px;
+		}
+	}
 }
 

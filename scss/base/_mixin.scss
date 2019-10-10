@@ -1,0 +1,6 @@
+@mixin header-content-item ($font, $lh, $pb, $mb) {
+  font-size: $font;
+  line-height: $lh;
+  padding-bottom: $pb;
+  margin-bottom: $mb;
+}
