@@ -2,14 +2,23 @@
 .btn {
 	&--fill {
 		@extend %btn;
-		font-weight: bold;
 		background-color: $pink;
+	}
+
+	&--small {
+		display: block;
+		max-width: 100%;
 	}
 
 	&--white {
 		@extend %btn;
 		background-color: transparent;
 		border: 2px solid $white;
+	}
+
+	&--pink {
+		border: 2px solid $pink;
+		color: $pink;
 	}
 
 	&--pink {
@@ -21,8 +30,17 @@
 @media only all and (min-width: 768px) {
 	.btn {
 		&--fill {
-			width: 225px;
+			width: 14rem;
 		}
+
+		&--small {
+		width: 225px;
+		margin: 0 auto;
 	}
+	}
+}
+
+.btn:hover {
+	cursor: pointer;
 }
 

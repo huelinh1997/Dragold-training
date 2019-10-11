@@ -1,11 +1,10 @@
 .navbar {
 	flex-direction: column;
-	padding:0 0 1.75em;
+	padding:0 0 1.75rem;
 	&-brand {
 		margin: 0 auto;
-		font-size: 1.25em;
-		line-height: 1.5em;
-	    // font-weight: bold;
+		font-size: 1.25rem;
+		line-height: 1.5rem;
 	    color: white;
 	}
 }
@@ -13,8 +12,8 @@
 @media only all and (min-width: 768px) {
   .navbar {
 	flex-direction: row;
-	margin: 0 3.125em;
-	padding: 2.5em 0 9.25em;
+	margin: 0 3.125rem;
+	padding: 2.5rem 0 9.25rem;
 	 &-brand {
 		margin: 0;
 	 }
@@ -24,8 +23,8 @@
 @media only all and (min-width: 1440px) {
   .navbar {
 	flex-direction: row;
-	margin: 0 18.75em 0 16em;
-	padding: 2.5em 0 9.25em;
+	margin: 0 ;
+	padding: 2.5rem 0 9.25rem;
 	 &-brand {
 		margin: 0;
 	 }
