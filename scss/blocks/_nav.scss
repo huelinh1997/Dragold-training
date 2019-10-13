@@ -1,10 +1,12 @@
 .nav {
-	align-items: center;
-	margin: 0 auto;
-	padding: 1.25rem 0 6.25rem ;
-	&-link {
-		padding: 0.625rem 1.25rem ;
-		font-size: 0.875rem;
+	&--header {
+		padding: 20px 0 97px ;
+	}
+	
+	&-link--header {
+		padding: 10px 20px ;
+		font-size: 14px;
+		line-height: 17px;
 	}
 }
 

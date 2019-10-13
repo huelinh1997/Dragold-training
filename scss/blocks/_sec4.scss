@@ -1,0 +1,28 @@
+.sec4 {
+	padding: 0 20px;
+	text-align: center;
+	&__margin {
+		margin: 35px 0 10px;	
+	}
+
+	&__question {
+		font-size: 18px;
+		line-height: 14px;
+		font-family: $roboto;
+		font-weight: 300;
+		color: $gray;
+	}
+
+	&__input {
+		font-size: 14px;
+		line-height: 16px;
+		font-family: $roboto;
+		color: $gray-light2;
+		font-weight: 300;
+		margin-bottom: 10px;
+	}
+
+	&__btn {
+		margin-bottom: 40px;
+	}
+}

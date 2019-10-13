@@ -3,34 +3,9 @@
 		margin: 36px 0 11px;
 		padding: 0 20px;
 	}
-	.col-md-3 {
-		text-align: center;
-		&__pic {
-			position: relative;
-		}
-		&__people {
-			border-radius: 50%;
-			max-width: 100%;
-		}
-
-		&__title {
-			padding: 14px 0 12px;
-			color: #444444;
-			font-size: 14px;
-			line-height: 17px;
-		}
-
-		&__text {
-			color: #666666;	
-			font-family: $roboto;
-			font-size: 14px;
-			line-height: 17px;
-			padding: 0 42px;
-		}
-	}
+	
 	&__btn {
-		text-align: center;
-		// color: $pink;
-
+		padding: 0 20px;
+		margin-top: 20px;
 	}
 }

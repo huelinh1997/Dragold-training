@@ -2,12 +2,11 @@
 .btn {
 	&--fill {
 		@extend %btn;
+		padding: 11px 0;
 		background-color: $pink;
-	}
-
-	&--small {
-		display: block;
-		max-width: 100%;
+		&--small {
+			padding: 4px 0;
+		}
 	}
 
 	&--white {
@@ -17,13 +16,10 @@
 	}
 
 	&--pink {
-		border: 2px solid $pink;
-		color: $pink;
-	}
-
-	&--pink {
 		@extend %btn;
 		border: 2px solid $pink;
+		color: $pink;
+		padding: 12px 0;
 	}
 }
 

@@ -1,0 +1,36 @@
+.footer {
+	text-align: center;
+	&__title {
+		color: $pink;
+		display: block;
+		margin: 19px 0 13px;
+	}
+
+	&__sub {
+		font-size: 14px;
+		line-height: 17px;
+		margin-bottom: 0px;
+	}
+
+	&__link {
+		padding: 0 30px 5px 30px;
+		font-size: 14px;
+		line-height: 26px;
+		font-weight: 300px;
+		a {	
+			color: $gray-light2;
+			padding: 0 5px;
+		}
+	}
+
+	&__design {
+		margin: 14px 0 7px;
+		font-size: 10px;
+		line-height: 12px;
+		color: $light;
+	}
+
+	&__img {
+		margin-bottom: 22px;
+	}
+}

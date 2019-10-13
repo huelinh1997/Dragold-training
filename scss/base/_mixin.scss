@@ -1,6 +1,22 @@
-@mixin header-content-item ($font, $lh, $pb, $mb) {
+@mixin header-content-item ($font, $lh, $mb) {
   font-size: $font;
   line-height: $lh;
-  padding-bottom: $pb;
   margin-bottom: $mb;
 }
+
+@mixin align-pic ($top,$left) {
+	position: absolute;
+	top: $top;
+	left: $left;
+}
+
+@mixin circle ($w, $h, $b, $r, $bg){
+	border-radius: 50%;
+	position: absolute;
+	width: $w;
+	height: $h;
+	bottom: $b;
+	right: $r;
+	background-color: $bg;
+}
+

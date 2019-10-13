@@ -1,11 +1,13 @@
 .navbar {
-	flex-direction: column;
-	padding:0 0 1.75rem;
-	&-brand {
+	&--flex {
+		flex-direction: column;
+		padding:0 0 27px;
+	}
+	
+	&-item {
 		margin: 0 auto;
-		font-size: 1.25rem;
-		line-height: 1.5rem;
-	    color: white;
+		font-size: 20px;
+		line-height: 24px;
 	}
 }
 

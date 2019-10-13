@@ -1,0 +1,39 @@
+.people {
+		padding: 0;
+		text-align: center;
+		&__pic {
+			position: relative;
+			margin: 0 auto;
+			width: 126px;
+			height: 126px;
+		}
+
+		&__avatar {
+			border-radius: 50%;
+			max-width: 100%;
+			margin: 0 auto;
+			&--1 {
+				@include align-pic(3px, 3px);
+			}
+
+			&--2 {
+				@include align-pic(1px, 1px);
+			}
+		}
+
+		&__title {
+			padding: 14px 0 12px;
+			color: $black-light;
+			font-size: 14px;
+			line-height: 17px;
+		}
+
+		&__text {
+			color: $gray;	
+			font-family: $roboto;
+			font-size: 14px;
+			line-height: 14px;
+			font-weight: 300;
+			padding: 0 42px;
+		}
+	}

@@ -1,0 +1,31 @@
+.header {
+	&__content {
+	padding: 0 20px 160px;
+	}
+
+	&__title {
+		@include header-content-item(30px, 37px, 6px);
+	}
+
+	&__text {
+		font: {
+			family:$roboto;
+			weight: 300;
+		};
+		@include header-content-item(18px, 24px, 15px);	
+	}
+}
+
+@media only all and (min-width: 768px) {
+	.content-header {
+		width: 470px;
+		padding-bottom: 14rem;
+	&__title {
+		//@include header-content-item(3.25rem, 4rem, 1.75rem, 0);
+	}
+
+	&__text {
+		//@include header-content-item(1.5rem, 1.5rem, 2rem, 0);
+	}
+}
+}
