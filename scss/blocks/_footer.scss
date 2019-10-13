@@ -7,15 +7,13 @@
 	}
 
 	&__sub {
-		font-size: 14px;
-		line-height: 17px;
+		@include text(14px, inherit, 17px, inherit);
 		margin-bottom: 0px;
 	}
 
 	&__link {
 		padding: 0 30px 5px 30px;
-		font-size: 14px;
-		line-height: 26px;
+		@include text(14px, inherit, 26px, inherit);
 		font-weight: 300px;
 		a {	
 			color: $gray-light2;
@@ -25,9 +23,7 @@
 
 	&__design {
 		margin: 14px 0 7px;
-		font-size: 10px;
-		line-height: 12px;
-		color: $light;
+		@include text(10px, inherit, 12px, $light);
 	}
 
 	&__img {

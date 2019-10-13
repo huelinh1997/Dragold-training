@@ -1,8 +1,26 @@
 %btn {
-	border: none;
 	border-radius: 40px;
 	font-size: 14px;
 	line-height: 17px;
-	text-align: center;
+}
+
+%box {
+	position: relative;
+	margin: 0 10px;
+	z-index: 1;
+	border-radius: 4px;
+	background-size: cover;
+}
+
+%box-before {
+	content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 4px;
 }
 

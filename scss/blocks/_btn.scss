@@ -2,7 +2,7 @@
 .btn {
 	&--fill {
 		@extend %btn;
-		padding: 11px 0;
+		padding: 10px 0;
 		background-color: $pink;
 		&--small {
 			padding: 4px 0;
@@ -11,7 +11,6 @@
 
 	&--white {
 		@extend %btn;
-		background-color: transparent;
 		border: 2px solid $white;
 	}
 

@@ -6,18 +6,12 @@
 	}
 
 	&__question {
-		font-size: 18px;
-		line-height: 14px;
-		font-family: $roboto;
+		@include text(18px, $roboto, 14px, $gray);
 		font-weight: 300;
-		color: $gray;
 	}
 
 	&__input {
-		font-size: 14px;
-		line-height: 16px;
-		font-family: $roboto;
-		color: $gray-light2;
+		@include text(14px, $roboto, 16px, $gray-light2);
 		font-weight: 300;
 		margin-bottom: 10px;
 	}

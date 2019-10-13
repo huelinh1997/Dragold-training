@@ -1,34 +1,29 @@
 .navbar {
 	&--flex {
 		flex-direction: column;
-		padding:0 0 27px;
+		padding:20px 0 27px;
 	}
 	
-	&-item {
+	&--item {
 		margin: 0 auto;
-		font-size: 20px;
-		line-height: 24px;
+		@include text(20px, inherit, 24px, $white);
 	}
 }
 
 @media only all and (min-width: 768px) {
   .navbar {
-	flex-direction: row;
-	margin: 0 3.125rem;
-	padding: 2.5rem 0 9.25rem;
-	 &-brand {
-		margin: 0;
-	 }
+	&--flex {
+		flex-direction: row;
+		padding:20px 50px 148px;
 	}
+
+	&--item {
+		// order: 1;
+		margin: 0;
+	}
+  }
 }
 
 @media only all and (min-width: 1440px) {
-  .navbar {
-	flex-direction: row;
-	margin: 0 ;
-	padding: 2.5rem 0 9.25rem;
-	 &-brand {
-		margin: 0;
-	 }
-	}
+  
 }

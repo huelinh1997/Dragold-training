@@ -2,13 +2,8 @@
 	margin-top: 10px;
 	padding: 0;
 	&__box {
-		margin: 0 10px;
-		position: relative;
-		z-index: 1;
-		height: 120px;
-		border-radius: 4px;
+		@include box (120px);
 		background-image: url(../img/activity1.png);
-		background-size: cover;
 		&--2 {
 			background-image: url(../img/activity2.png);
 		}
@@ -30,22 +25,12 @@
 	}
 
 	&__box::before {
-		content: "";
-		display: block;
-		position: absolute;
-		z-index: -1;
-	    top: 0;
-	    bottom: 0;
-	    left: 0;
-	    right: 0;
-		background: #000000;
+	    @include box-before ($black); 
 		opacity: 0.2;
-		border-radius: 4px;
 	}
 
 	&__text {
-		font-size: 22px;
-		line-height: 27px;
+		@include text(22px, inherit, 27px, $white);
 		margin: 0;
 		padding: 0 47px;
 		position: relative;

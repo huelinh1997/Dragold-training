@@ -1,5 +1,3 @@
 .title-sec {
-	font-size: 22px;
-	line-height: 27px;
-	color: #444444;
+	@include text(22px, inherit, 27px, inherit);
 }

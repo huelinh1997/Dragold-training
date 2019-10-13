@@ -10,6 +10,16 @@
 	left: $left;
 }
 
+@mixin box ($height) {
+	@extend %box;
+	height: $height;
+}
+
+@mixin box-before ($bg) {
+	@extend %box-before;
+	background: $bg;
+}
+
 @mixin circle ($w, $h, $b, $r, $bg){
 	border-radius: 50%;
 	position: absolute;
@@ -18,5 +28,14 @@
 	bottom: $b;
 	right: $r;
 	background-color: $bg;
+}
+
+@mixin text ($font-size, $font-family,  $line-height, $color) {
+	font: {
+		size: $font-size;
+		family: $font-family;
+	};
+	line-height: $line-height;
+	color: $color;
 }
 
