@@ -32,3 +32,22 @@
 			padding: 0 42px;
 		}
 	}
+
+@media only all and (min-width: 768px) {
+	.people {
+		padding: 0 10px;
+		&__pic {
+			//margin: 0 66px;
+		}
+
+		&__text {
+			padding: 0;
+		}
+	}
+}
+
+@media only all and (min-width: 1440px) {
+	.people {
+		flex: 25%;
+	}
+}

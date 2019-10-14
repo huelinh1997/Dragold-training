@@ -3,12 +3,14 @@
 		padding: 0;
 		&__box {
      		@include box (240px);
+     		background-size: cover;
+     		background-position: top;
 			background-image: url(../img/Object1.png);
 			&--2 {
 				background-image: url(../img/Object2.png);
-				.step__text {
-					padding-top: 92px;
-				}
+				// .step__text {
+				// 	padding-top: 92px;
+				// }
 			}
 			&--3 {
 				background-image: url(../img/Object3.png);
@@ -40,3 +42,42 @@
 			font-weight: 300;	
 		}	
 	}
+
+@media only all and (min-width: 768px) {
+	.step {
+		&__box {
+     		@include box (400px);
+			background-image: url(../img/Object1_768.png);
+			&--2 {
+				background-image: url(../img/Object2_768.png);
+			}
+			&--3 {
+				background-image: url(../img/Object3_768.png);
+			}
+		}
+
+		&__text {
+			padding: 205px 20px 0 20px;
+		}
+	}
+}
+
+@media only all and (min-width: 1440px) {
+	.step {
+		&__box {
+     		@include box (400px);
+     		//margin: 0 250px;
+			background-image: url(../img/Object1_1440.png);
+			&--2 {
+				background-image: url(../img/Object2_1440.png);
+			}
+			&--3 {
+				background-image: url(../img/Object3_1440.png);
+			}
+		}
+
+		&__text {
+			padding: 205px 20px 0 20px;
+		}
+	}
+}

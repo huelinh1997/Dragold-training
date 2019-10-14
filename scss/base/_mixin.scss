@@ -11,7 +11,11 @@
 }
 
 @mixin box ($height) {
-	@extend %box;
+	position: relative;
+	margin: 0 10px;
+	z-index: 1;
+	border-radius: 4px;
+	background-size: cover;
 	height: $height;
 }
 

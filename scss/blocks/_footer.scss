@@ -1,9 +1,11 @@
 .footer {
+	margin: 0;
 	text-align: center;
 	&__title {
-		color: $pink;
-		display: block;
 		margin: 19px 0 13px;
+		a {
+			color: $pink;
+		}
 	}
 
 	&__sub {
@@ -12,21 +14,59 @@
 	}
 
 	&__link {
+		list-style-type: none;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0 auto;
 		padding: 0 30px 5px 30px;
 		@include text(14px, inherit, 26px, inherit);
 		font-weight: 300px;
-		a {	
+	}
+
+	&__item {
+		padding: 0 6px;
+		a {
 			color: $gray-light2;
-			padding: 0 5px;
 		}
 	}
 
-	&__design {
-		margin: 14px 0 7px;
-		@include text(10px, inherit, 12px, $light);
+	&__logo {
+		margin: 14px 0 22px;
 	}
 
-	&__img {
-		margin-bottom: 22px;
+	&__design {
+		margin-bottom: 7px;
+		@include text(10px, inherit, 12px, $light);
+	}
+}
+
+@media only all and (min-width: 768px) {
+	.footer {
+		padding: 36px 25px 20px;
+		text-align: left;
+		&__title {
+			margin: 0;
+		}
+
+		&__link {
+			flex-direction: column;
+			padding: 0; 
+		}
+
+		&__item {
+			padding: 0;
+		}
+
+		&__logo {
+			margin: 0;
+			text-align: right;
+		}
+	}
+}
+
+@media only all and (min-width: 1440px){
+	.footer {
+		padding: 36px 235px 36px
 	}
 }

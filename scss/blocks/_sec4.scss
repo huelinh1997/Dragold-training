@@ -10,13 +10,43 @@
 		font-weight: 300;
 	}
 
+	&__search {
+		display: flex;
+		flex-direction: column;//margin-bottom: 10px;
+		margin-bottom: 40px;
+	}
+
 	&__input {
 		@include text(14px, $roboto, 16px, $gray-light2);
 		font-weight: 300;
 		margin-bottom: 10px;
 	}
+}
 
-	&__btn {
-		margin-bottom: 40px;
+@media only all and (min-width: 768px) {
+	.sec4 {
+		&__margin {
+			margin: 94px 0 43px;
+		}
+
+		&__question {
+			margin-bottom: 25px;
+		}
+
+		&__search {
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 100px;
+		}
+
+		&__input{
+			width: 300px;
+			margin: 0 10px 0 0;
+		}
+
+		&__btn {
+			margin: 0;
+		}
 	}
 }

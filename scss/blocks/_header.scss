@@ -1,4 +1,10 @@
 .header {
+	position: relative;
+	z-index: 1;
+	background-image: url(../img/Background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
 	&__content {
 	padding: 0 20px 160px;
 	}
@@ -16,6 +22,39 @@
 	}
 }
 
+.header::before {
+	content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000;
+    opacity: 0.15;
+}
+
 @media only all and (min-width: 768px) {
-	
+	.header {
+		&__content {
+		padding: 0 149px 224px;
+		}
+
+		&__title {
+			@include header-content-item(52px, 63px, 29px);
+		}
+
+		&__text {
+			@include header-content-item(24px, 24px, 33px);	
+		}
+	}
+}
+
+@media only all and (min-width: 1440px) {
+	.header {
+		&__content {
+			padding: 0 485px 224px;
+		}
+	}
 }

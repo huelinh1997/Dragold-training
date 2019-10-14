@@ -39,3 +39,67 @@
 	    transform: translateX(-50%) translateY(-50%);
 	}
 }
+
+@media only all and (min-width: 768px) {
+	.activity {
+		&__box {
+			@include box (310px);
+			background-image: url(../img/activity1_768.png);
+			&--2 {
+				background-image: url(../img/activity2_768.png);
+			}
+			&--3 {
+				background-image: url(../img/activity3_768.png);
+			}
+			&--4 {
+				background-image: url(../img/activity4_768.png);
+			}
+			&--5 {
+				background-image: url(../img/activity5_768.png);
+			}
+			&--6 {
+				background-image: url(../img/activity6_768.png);
+			}
+			&--7 {
+				background-image: url(../img/activity7_768.png);
+			}
+		}
+
+		&__text {
+			padding: 0 15px;
+		}
+	}
+}
+
+@media only all and (min-width: 768px) {
+	.activity {
+		&__box {
+			@include box (310px);
+			background-image: url(../img/activity1_1440.png);
+			&--2 {
+				background-image: url(../img/activity2_1440.png);
+			}
+			&--3 {
+				background-image: url(../img/activity3_1440.png);
+				padding: 0 40px;
+			}
+			&--4 {
+				background-image: url(../img/activity4_1440.png);
+			}
+			&--5 {
+				background-image: url(../img/activity5_1440.png);
+			}
+			&--6 {
+				background-image: url(../img/activity6_1440.png);
+			}
+			&--7 {
+				background-image: url(../img/activity7_1440.png);
+			}
+		}
+
+		&__text {
+			//padding: 0 32px;
+		}
+	}
+}
+

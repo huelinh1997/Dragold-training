@@ -25,13 +25,26 @@
 @media only all and (min-width: 768px) {
 	.btn {
 		&--fill {
-			width: 14rem;
+			margin: 0 auto;
 		}
 
-		&--small {
-		width: 225px;
-		margin: 0 auto;
-	}
+		&--size1 {
+			width: 224px;
+		}
+
+		&--size2 {
+			width: 173px;
+		}
+
+		&--pink {
+			width: 180px;
+			margin: 0 auto;
+		}
+
+		// &--small {
+		// 	width: 225px;
+		// 	margin: 0 auto;
+		// }
 	}
 }
 
