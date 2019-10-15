@@ -1,11 +1,14 @@
 .sec2 {
+	padding: 0 20px;
 	&__margin {
 		margin: 36px 0 11px;
-		padding: 0 20px;
+	}
+
+	&__row {
+		margin: 0;
 	}
 	
 	&__btn {
-		padding: 0 20px;
 		margin-top: 20px;
 	}
 }
@@ -17,12 +20,15 @@
 		}
 
 		&__row {
-			margin: 0;
-			padding: 0 128px;
+			padding: 0 124px;
 		}
 	}
 }
 
 @media only all and (min-width: 1440px) {
-
+	.sec2 {
+		&__row {
+			padding: 0 220px;
+		}
+	}
 }

@@ -4,10 +4,12 @@
   margin-bottom: $mb;
 }
 
-@mixin align-pic ($top,$left) {
-	position: absolute;
-	top: $top;
-	left: $left;
+@mixin background ($pos, $re, $size) {
+	background: {
+		position: $pos;
+		repeat: $re;
+		size: $size;
+	}
 }
 
 @mixin box ($height) {
@@ -19,9 +21,10 @@
 	height: $height;
 }
 
-@mixin box-before ($bg) {
-	@extend %box-before;
+@mixin box-before ($bg, $radius) {
+	@extend %before;
 	background: $bg;
+	border-radius: $radius;
 }
 
 @mixin circle ($w, $h, $b, $r, $bg){

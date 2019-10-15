@@ -4,14 +4,27 @@
 		@extend %btn;
 		padding: 10px 0;
 		background-color: $pink;
+		border: 2px solid $pink;
+		color: $white;
 		&--small {
 			padding: 4px 0;
 		}
 	}
 
+	&--fill:hover {
+		background-color: transparent;
+		border-color: $pink;
+		color: $pink;
+	}
+
 	&--white {
 		@extend %btn;
 		border: 2px solid $white;
+	}
+
+	&--white:hover {
+		border: 2px solid $pink;
+		color: $pink;
 	}
 
 	&--pink {
@@ -20,7 +33,13 @@
 		color: $pink;
 		padding: 12px 0;
 	}
+
+	&--pink:hover {
+		background-color: $pink;
+		color: $white;
+	}
 }
+
 
 @media only all and (min-width: 768px) {
 	.btn {

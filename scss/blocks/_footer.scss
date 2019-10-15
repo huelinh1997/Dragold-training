@@ -6,6 +6,9 @@
 		a {
 			color: $pink;
 		}
+		a:hover {
+			text-decoration: underline;
+		}
 	}
 
 	&__sub {
@@ -28,6 +31,9 @@
 		padding: 0 6px;
 		a {
 			color: $gray-light2;
+		}
+		a:hover {
+			text-decoration: underline;
 		}
 	}
 

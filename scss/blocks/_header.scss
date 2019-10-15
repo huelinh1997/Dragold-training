@@ -2,9 +2,8 @@
 	position: relative;
 	z-index: 1;
 	background-image: url(../img/Background.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size:cover;
+	@include background (center, no-repeat, cover);
+
 	&__content {
 	padding: 0 20px 160px;
 	}
@@ -23,20 +22,13 @@
 }
 
 .header::before {
-	content: "";
-    display: block;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #000000;
+	@include box-before ($black, none);
     opacity: 0.15;
 }
 
 @media only all and (min-width: 768px) {
 	.header {
+		background-image: url(../img/Background_768.png);
 		&__content {
 		padding: 0 149px 224px;
 		}

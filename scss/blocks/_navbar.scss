@@ -5,7 +5,6 @@
 	}
 	
 	&--item {
-		margin: 0 auto;
 		@include text(20px, inherit, 24px, $white);
 	}
 }
@@ -18,7 +17,6 @@
 	}
 
 	&--item {
-		// order: 1;
 		margin: 0;
 	}
   }
@@ -27,13 +25,7 @@
 @media only all and (min-width: 1440px) {
   .navbar {
 	&--flex {
-		flex-direction: row;
 		padding:40px 290px 148px 248px;
-	}
-
-	&--item {
-		// order: 1;
-		margin: 0;
 	}
   }
 }

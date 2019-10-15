@@ -10,14 +10,11 @@
 
 		&__avatar {
 			border-radius: 50%;
-			max-width: 100%;
 			margin: 0 auto;
-			&--1 {
-				@include align-pic(3px, 3px);
-			}
-
-			&--2 {
-				@include align-pic(1px, 1px);
+			&--align {
+				position: absolute;
+				top: 3px;
+				left: 3px;
 			}
 		}
 
@@ -29,16 +26,13 @@
 		&__text {
 			@include text(14px, $roboto, 14px, $gray);
 			font-weight: 300;
-			padding: 0 42px;
+			padding: 0 22px;
 		}
 	}
 
 @media only all and (min-width: 768px) {
 	.people {
 		padding: 0 10px;
-		&__pic {
-			//margin: 0 66px;
-		}
 
 		&__text {
 			padding: 0;
@@ -49,5 +43,16 @@
 @media only all and (min-width: 1440px) {
 	.people {
 		flex: 25%;
+			
+		&--order2 {
+			order: 2;
+		}
+		&--order3 {
+			order: 3;
+		}
+
+		&--order4 {
+			order: 4;
+		}
 	}
 }

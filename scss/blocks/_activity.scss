@@ -1,5 +1,5 @@
 .activity {
-	margin-top: 10px;
+	margin: 10px 0;
 	padding: 0;
 	&__box {
 		@include box (120px);
@@ -25,12 +25,13 @@
 	}
 
 	&__box::before {
-	    @include box-before ($black); 
+	    @include box-before ($black, 4px); 
 		opacity: 0.2;
 	}
 
 	&__text {
 		@include text(22px, inherit, 27px, $white);
+		display: block;
 		margin: 0;
 		padding: 0 47px;
 		position: relative;
@@ -71,7 +72,7 @@
 	}
 }
 
-@media only all and (min-width: 768px) {
+@media only all and (min-width: 1440px) {
 	.activity {
 		&__box {
 			@include box (310px);
@@ -81,7 +82,6 @@
 			}
 			&--3 {
 				background-image: url(../img/activity3_1440.png);
-				padding: 0 40px;
 			}
 			&--4 {
 				background-image: url(../img/activity4_1440.png);
@@ -97,9 +97,7 @@
 			}
 		}
 
-		&__text {
-			//padding: 0 32px;
-		}
+		
 	}
 }
 
